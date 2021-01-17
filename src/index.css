@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.nav {
+  display: block;
+  height: 75px;
+  background-color: #494949;
+  padding: 5px;
+}
+
+.nav .logo{ 
+  position: absolute;
+}
+
+.nav .searchBar .searchBox {
+  display: block;
+  width: 60%;
+  padding: 15px;
+  
+  margin: 0 auto;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 16px 16px 16px 16px;
+  margin-top: 5px;
+  margin-left: 15rem;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.3);
+
+  color: #313131;
+  font-size: 18px;
+
+  transition: 0.3s ease;
+}
+
+.statbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statbox .flag {
+  display: block;
+  position: fixed;
+  margin: 20rem auto;
+}
+
+.col {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  color: #313131;
+}
+
+.card { 
+  flex: 1 1 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
